@@ -15,4 +15,13 @@
         "Rank": "Developer",
         "Whitelisted": "true"
     }
+},
+{
+    "thenokind": {
+        "Chattag": "[thenokind]",
+        "Color": "#6df76f",
+        "Nametag": "Man",
+        "Rank": "Friend",
+        "Whitelisted": "true"
+    }
 }
