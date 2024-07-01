@@ -2564,9 +2564,10 @@ print("[ManaV2ForRoblox/Universal.lua]: Loaded in " .. tostring(tick() - startTi
 --[[
     Private part
     Please don't skid thiss
+    ( sorry for i are enabled this function ) --portal2707070																																																																												
 ]]
 
-if Mana.Developer or Mana.Whitelisted then
+if Mana.Whitelisted then
     runFunction(function()
         local FakeLagSend = {Value = false}
         local FakeLagRecieve = {Value = false}
