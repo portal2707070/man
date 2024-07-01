@@ -50,9 +50,9 @@ elseif not (_G and getgenv) then --idk if its possible to dont have _G thing ( r
 end
 
 if getgenv then
-    getgenv().Mana = {Developer = true} -- i dont think i need to modify this ( idk )
+    getgenv().Mana = {Developer = false} -- i dont think i need to modify this ( idk )
 else
-    _G.Mana = {Developer = true}
+    _G.Mana = {Developer = false}
 end
 
 do
@@ -191,7 +191,7 @@ if GuiLibrary.Device == "Mobile" then
     SliderScaleValue = 0.5
 end
 
-Mana.Developer = true
+Mana.Developer = false
 
 task.spawn(function() -- task.spawn bc it will run and while it's loading other things will load too
     for PlayerName, Tag in pairs(Whitelist) do
