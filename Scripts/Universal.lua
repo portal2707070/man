@@ -87,7 +87,7 @@ local function GetCustomAsset(path)
             textlabel:Remove()
         end)
         local req = requestfunc({
-            Url = "https://raw.githubusercontent.com/Maan04ka/NewManaV2ForRoblox/main/" .. path:gsub("Mana/Assets", "Assets"),
+            Url = "https://raw.githubusercontent.com/portal2707070/man/main/" .. path:gsub("Mana/Assets", "Assets"),
             Method = "GET"
         })
         writefile(path, req.Body)

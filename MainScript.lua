@@ -59,7 +59,7 @@ do
     function Functions:WriteFile(path, filepath) -- path - executor's in workspace path, filepath - github path
         local CurrentFile
         if isfile(path) then CurrentFile = readfile(path) end
-        local res = httprequest({Url = 'https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/' .. filepath, Method = 'GET'}).Body
+        local res = httprequest({Url = 'https://raw.githubusercontent.com/portal2707070/man/main' .. filepath, Method = 'GET'}).Body
         if res ~= '404: Not Found' and res ~= CurrentFile then --  and Mana.Developer
             writefile("Mana/" .. path, res)
         else
@@ -70,7 +70,7 @@ do
     function Functions:CheckFile(filepath)
         local ToReturn
         local Success, Error = pcall(function() 
-            ToReturn = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/" .. filepath))()
+            ToReturn = loadstring(game:HttpGet("https://raw.githubusercontent.com/portal2707070/man/main/" .. filepath))()
         end) 
         if not Success then 
             warn(Error)
@@ -149,7 +149,7 @@ do
     end
 end
 
-local Whitelist = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/Whitelist/main/Whitelist.json"))
+local Whitelist = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/portal2707070/man/main/Whitelist.json"))
 local GuiLibrary = Functions:RunFile("GuiLibrary.lua")
 local EntityLibrary = Functions:RunFile("Libraries/EntityLibrary.lua")
 
@@ -191,7 +191,7 @@ if GuiLibrary.Device == "Mobile" then
     SliderScaleValue = 0.5
 end
 
-if LocalPlayer.UserId == 5366854020 then
+if LocalPlayer.UserId == LocalPlayer.UserId then
     Mana.Developer = true
 end
 
