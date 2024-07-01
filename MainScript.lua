@@ -45,12 +45,12 @@ end
 
 if not getgenv then
     warn("[ManaV2ForRoblox]: Using _G function.")
-elseif not (_G and getgenv) then --idk if its possible to dont have _G thing ( reallll )
+elseif not (_G and getgenv) then --idk if its possible to dont have _G thing
     return warn("[ManaV2ForRoblox]: Unsupported executor.")
 end
 
 if getgenv then
-    getgenv().Mana = {Developer = false} -- i dont think i need to modify this ( idk )
+    getgenv().Mana = {Developer = false}
 else
     _G.Mana = {Developer = false}
 end
