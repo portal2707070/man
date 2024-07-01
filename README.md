@@ -7,7 +7,7 @@ Discord server: ``https://discord.gg/CEMMRSvXek``
 
 Loadstring:
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/MainScript.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/portal2707070/man/main/MainScript.lua"))()
 ```
 
 ## Supported Games:
