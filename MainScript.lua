@@ -191,9 +191,7 @@ if GuiLibrary.Device == "Mobile" then
     SliderScaleValue = 0.5
 end
 
-if LocalPlayer.UserId == LocalPlayer.UserId then
-    Mana.Developer = true
-end
+Mana.Developer = true
 
 task.spawn(function() -- task.spawn bc it will run and while it's loading other things will load too
     for PlayerName, Tag in pairs(Whitelist) do
