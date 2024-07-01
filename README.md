@@ -1,9 +1,10 @@
-# ManaV2ForRoblox
+# ManaV2ForRoblox modified
+Original is on github.com/Maanaaaa/ManaV2ForRoblox
 Cool script for roblox
  
 Supports executors that has file system and normal UNC system
 
-Discord server: ``https://discord.gg/CEMMRSvXek``
+ Original Mana v2 Discord server: ``https://discord.gg/CEMMRSvXek``
 
 Loadstring:
 ```lua
