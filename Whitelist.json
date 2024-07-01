@@ -1,30 +1,30 @@
 {
-    "cheapx_TEST": {
-        "Chattag": "[Developer]",
-        "Color": "#6df76f",
-        "Nametag": "Mana",
-        "Rank": "Developer",
-        "Whitelisted": "true"
-    },
-    "cheapx_TEST1CAMERA": {
-        "Chattag": "[Developer]",
-        "Color": "#6df76f",
-        "Nametag": "Mana",
-        "Rank": "Developer",
-        "Whitelisted": "true"
-    },
-    "thenokind": {
-        "Chattag": "[thenokind]",
-        "Color": "#6df76f",
-        "Nametag": "Man",
-        "Rank": "Friend",
-        "Whitelisted": "true"
-    },
-    "dimbox2realminecraft": {
-        "Chattag": "[Developer]",
-        "Color": "#6df76f",
-        "Nametag": "Mana",
-        "Rank": "Developer",
-        "Whitelisted": "true"
-    }
+  "cheapx_TEST": {
+    "Chattag": "[Developer]",
+    "Color": "#6df76f",
+    "Nametag": "Mana",
+    "Rank": "Developer",
+    "Whitelisted": "true"
+  },
+  "cheapx_TEST1CAMERA": {
+    "Chattag": "[Developer]",
+    "Color": "#6df76f",
+    "Nametag": "Mana",
+    "Rank": "Developer",
+    "Whitelisted": "true"
+  },
+  "thenokind": {
+    "Chattag": "[thenokind]",
+    "Color": "#6df76f",
+    "Nametag": "Man",
+    "Rank": "Friend",
+    "Whitelisted": "true"
+  },
+  "dimbox2realminecraft": {
+    "Chattag": "[Developer]",
+    "Color": "#6df76f",
+    "Nametag": "Mana",
+    "Rank": "Developer",
+    "Whitelisted": "true"
+  }
 }

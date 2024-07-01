@@ -50,16 +50,16 @@ elseif not (_G and getgenv) then --idk if its possible to dont have _G thing ( r
 end
 
 if getgenv then
-    getgenv().Mana = {Developer = false} -- i dont think i need to modify this ( idk )
+    getgenv().Mana = {Developer = true} -- i dont think i need to modify this ( idk )
 else
-    _G.Mana = {Developer = false}
+    _G.Mana = {Developer = true}
 end
 
 do
     function Functions:WriteFile(path, filepath) -- path - executor's in workspace path, filepath - github path
         local CurrentFile
         if isfile(path) then CurrentFile = readfile(path) end
-        local res = httprequest({Url = 'https://raw.githubusercontent.com/portal2707070/man/main' .. filepath, Method = 'GET'}).Body
+        local res = httprequest({Url = 'https://raw.githubusercontent.com/portal2707070/man/main/' .. filepath, Method = 'GET'}).Body
         if res ~= '404: Not Found' and res ~= CurrentFile then --  and Mana.Developer
             writefile("Mana/" .. path, res)
         else
